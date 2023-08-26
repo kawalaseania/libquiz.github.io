@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>untitled</title>
+	
+	
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/aos.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/aos.css">
+	<link rel="stylesheet" type="text/css" href="css/home_page.css">
+	 
+	<script type="text/javascript">
+
+</script>
+
+
+</head>
+<body>
+
+<section class="bg-dark  text-white">
+	<div  class="text-center">
+		<button onclick="fun1()" data-aos="zoom-out-left" class="btn btn-block btn-lg btn-outline-secondary">
+		 Identifying Counties</button>
+		<br>
+		<button onclick="fun2()" data-aos="zoom-out-left" class="btn btn-block btn-lg btn-outline-secondary">
+		 Counties And Their Capitals
+		</button>
+		<br>
+		<button onclick="fun3()" data-aos="zoom-out-left" class="btn btn-block btn-lg btn-outline-secondary"> Counties and their flags</button>
+		<br>
+		<button onclick="fun5()" data-aos="zoom-out-bottom" class="btn btn-block btn-lg btn-outline-warning">About the app</button>	
+		
+</section>
+
+</body>
+
+<script type="text/javascript">
+	function fun1(){
+		window.location.href = 'identifyingCounties.html';
+	}
+
+	function fun2(){
+		window.location.href = 'countiesCapitals.html';
+	}	
+
+	function fun3(){
+		window.location.href = 'countiesFlag.html';
+	}	
+
+	function fun4(){
+		window.location.href = "about.html";
+	}
+
+</script>
+<script>
+  AOS.init();
+</script>
+</html>
